@@ -19,16 +19,8 @@
 /**
 * Entete de page
 */
-
-.image
-{
-	float: left;
-
-}
-
 h1
 {
-
 	text-align: center;
 }
 
@@ -39,7 +31,41 @@ h1
 
 h2
 {
-	text-decoration: underline;
+	clear: right;
 }
+
+.image
+{
+	float: right;
+	border: 1px black solid;
+	box-shadow:4px 3px 0px black;
+}
+
+.image:hover
+{
+	box-shadow:0px 0px 0px black;
+}
+
+
+
+/**
+* corps de page
+*/
+
+
+body
+{
+	background-image: url("background/imageFond.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'ambleregular' , Arial, serif;
+}
+
+h2
+{
+	color:#BF735C;
+
+}
+
 
 
