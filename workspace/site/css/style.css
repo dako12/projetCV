@@ -40,11 +40,17 @@ header
 h1
 {
 	margin: auto;
+	text-align: center;
 }
 
 h1 + p
 {
 	margin: auto;
+}
+
+.entete
+{
+	text-align: center;
 }
 
 
@@ -161,6 +167,38 @@ h2:hover
 #liseré:nth-chlid(2)
 {
 	order: 1;
+}
+
+@media screen and (max-width: 1024px)
+{
+	#liseré
+	{
+		display: none;
+	}
+
+	#cursus
+	{
+		flex-direction: column;
+	}
+
+	header
+	{
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+
+	#experience
+	{
+		width: 90%;
+	}
+
+	#competence
+	{
+		width: 90%;
+	}
+
+
+
 
 }
 	
